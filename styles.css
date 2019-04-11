@@ -1,0 +1,63 @@
+/* NAVBAR SECTION */
+h2
+{
+  color:#88C0CD;
+}
+p
+{
+  margin-bottom: 3%;
+}
+pre
+{
+  background-color: #D4DAEA;
+}
+#navbar
+{
+  width: 17%;
+  position: fixed;
+  height: 100%;
+  border: 1px solid black;
+}
+#navbar-header
+{
+  color:#88C0CD;
+  font-size: 1.7rem;
+  padding:3%;
+}
+.nav-link
+{
+  color:#88C0CD;
+  padding-top:5%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 3%;
+  border:1px solid black;
+}
+.nav-link:hover
+{
+  color:#15BEBB;
+}
+
+
+/* MAIN SECTION */
+
+#main-doc
+{
+  background-color: #F3F9FB;
+  padding-left:19%;
+  padding-top: 3%;
+  padding-right: 2%;
+}
+@media (max-width: 800px)
+{
+  #navbar
+  {
+    border:none;
+    color:white;
+    display:none;
+  }
+  .nav-link
+  {
+    display:none;
+  }
+}
